@@ -11,6 +11,9 @@ This repo is a personal portfolio website to showcase my projects and skills
 
 [https://aungchanpyae.vercel.app](https://aungchanpyae.vercel.app)
 
+<img width="1200" height="630" alt="project-image" src="https://github.com/user-attachments/assets/5c530ba2-47b2-46ec-9ca0-efbda1bbe795" />
+
+
 ## The main Tech stack i used
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
