@@ -1,0 +1,5 @@
+{
+  "liveServer.settings.port": 5501,
+  "eslint.useFlatConfig": true,
+  "js/ts.tsdk.path": "node_modules\\typescript\\lib"
+}

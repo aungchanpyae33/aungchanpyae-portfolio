@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --surface: #111111;
+  --foreground: #ffffff;
+  --foreground-muted: #a3a3a3;
+  --foreground-subtle: #737373;
+  --blue: #2563eb;
+  --blue-light: #3b82f6;
+  --border: #262626;
+  --ring: #2563eb;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), "Inter", sans-serif;
+  --font-mono: var(--font-fira-code), "Fira Code", monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-foreground-subtle: var(--foreground-subtle);
+  --color-blue: var(--blue);
+  --color-blue-light: var(--blue-light);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
