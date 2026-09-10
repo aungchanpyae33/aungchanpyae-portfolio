@@ -4,6 +4,17 @@ import { useState } from "react";
 
 const jobs = [
   {
+    company: "Freeboh Innovations",
+    title: "Frontend Developer",
+    period: "July 2026 — Present",
+    bullets: [
+      "Migrated application state/data-fetching from Redux to TanStack Query, simplifying data flow efficiency.",
+      "Introduced unit and end-to-end testing and integrated automated tests into the CI/CD pipeline.",
+      "Migrated React codebase from JavaScript to TypeScript and refactored class components to hooks.",
+      "Led responsive redesign of core UI, enhancing usability across devices."
+    ],
+  },
+  {
     company: "MMS IT",
     title: "Frontend Developer",
     period: "Aug 2025 — Mar 2026",
