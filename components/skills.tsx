@@ -12,8 +12,8 @@ const categories = [
     items: ["Tailwind CSS", "CSS Modules", "Motion (Framer Motion)"],
   },
   {
-    label: "Tools",
-    items: ["Git", "Docker", "Supabase", "Vercel", "Cloudflare"],
+    label: "Tools & Testing",
+    items: ["Git", "Docker", "Supabase", "Vercel", "Cloudflare", "Vitest", "Playwright", "React Testing Library"],
   },
 ];
 
